@@ -3,7 +3,7 @@
 - Count operations in BigO rather than counting time a computer will take to handle operation
 - When n argument grows, the operations scale with it, `n = 500`, we will loop through this 500 times, so this is not viable
 - Depending on what we count, the number of operations can be as low as `2n` or as high as `5n + -` but regardless of the exact number, the number of operations grows roughly proportionally with `n`
-
+- Refer to slides <a href="https://cs.slides.com/colt_steele">here</a> for more info/details
 ## Big O Notation
 
 - We say an algorithm is `O(f(n))` if the number of simple operations the computer has to do eventually less than a constant times `f(n)`, as `n` increases.
